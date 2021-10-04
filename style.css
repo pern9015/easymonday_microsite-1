@@ -1,0 +1,402 @@
+body {
+  margin: 0;
+  background-color: #e0dacf;
+}
+
+.container {
+  max-width: 100%;
+}
+.logo {
+  width: 15vw;
+}
+nav {
+  z-index: 1;
+}
+.navbar-nav {
+  align-items: flex-end;
+}
+.navbar-brand {
+  width: 7.5rem;
+  /* height: 7.5rem; */
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-family: montserrat;
+  margin-top: -10px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.navbar-light .navbar-toggler {
+  color: white;
+  border: none;
+}
+
+video,
+#titel,
+#hero header {
+  grid-area: 1 / 1 / -1 / -1;
+}
+
+#titel {
+  z-index: 1;
+  place-self: center;
+}
+
+.Splash_overskrift {
+  place-self: center center;
+  color: white;
+  font-size: 8vw;
+  z-index: 1;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: quicksand;
+  font-weight: 700;
+  margin-top: -8vw;
+}
+.splash_underoverskrift {
+  place-self: center center;
+  color: white;
+  font-size: 3vw;
+  z-index: 1;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: quicksand;
+}
+video {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 6vw;
+}
+
+#section1 h1 {
+  text-transform: uppercase;
+  font-family: quicksand;
+  color: rgb(115, 132, 88);
+  z-index: 1;
+  font-weight: 700;
+  text-align: center;
+  font-size: clamp(35px, 4.5vw, 48px);
+  margin-bottom: 30vw;
+}
+
+button {
+  font-family: "Quicksand", sans-serif;
+  padding: 0.5rem 50px 0.5em 50px;
+  border-radius: 34px;
+  background: #738458;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+}
+
+button:focus,
+button:active,
+button:focus-within {
+  outline: 0;
+  font-family: "Quicksand", sans-serif;
+  padding: 0.5rem 50px 0.5em 50px;
+  border-radius: 34px;
+}
+
+button:hover {
+  background-color: #bdd09e;
+}
+
+button:active {
+  background-color: #cebea1;
+}
+
+.baggrund {
+  width: 100%;
+  /* opacity: 50%; */
+}
+
+/* #section2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+} */
+
+#section0 div {
+  place-self: center;
+  align-items: end;
+}
+
+#section0 div * {
+  grid-area: 1 / 1 / -1 / -1;
+  z-index: 1;
+  margin-top: 2vw;
+}
+
+#section2 h2 {
+  text-align: center;
+  font-size: clamp(30px, 2.5vw, 55px);
+  text-transform: uppercase;
+  font-family: "Quicksand";
+  font-weight: 500;
+}
+
+#section2 p {
+  font-size: 20px;
+  padding: 10px 30px;
+}
+#section2 button {
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  display: block;
+}
+
+#section2 .boks {
+  width: 100%;
+}
+
+#section3 .text {
+  background-color: #cebea1;
+  color: #738458;
+  text-align: center;
+  /* font-size: 4rem; */
+  font-size: clamp(55px, 5.5vw, 75px);
+  font-family: quicksand;
+  font-weight: 700;
+  text-transform: uppercase;
+  /* position: -webkit-sticky;
+   position: sticky;
+  align-self: baseline;
+  transform: translate(0px, 0px); */
+  padding-top: 5vw;
+}
+
+#section3 span {
+  color: white;
+}
+
+.sektion3 {
+  background-color: #cebea1;
+  padding-top: 5vw;
+}
+
+.sektion3 h2 {
+  text-align: center;
+  font-family: quicksand;
+  font-size: clamp(35px, 2.5vw, 55px);
+  text-transform: uppercase;
+}
+
+.sektion3 p {
+  text-align: center;
+  font-family: montserrat;
+  font-size: 20px;
+}
+
+.section4 {
+  margin-left: -20px;
+}
+
+.section4 div {
+  margin-bottom: 10vw;
+}
+
+.infografik {
+  width: 90%;
+}
+
+#section5 div {
+  place-self: end;
+  align-items: end;
+}
+#section5 div .text2 {
+  place-self: center;
+  padding-right: 60px;
+}
+
+#section5 div * {
+  grid-area: 1 / 1 / -1 / -1;
+  z-index: 1;
+}
+
+#section5 h2 {
+  text-align: center;
+  font-size: clamp(30px, 2.5vw, 55px);
+  text-transform: uppercase;
+  font-family: "Quicksand";
+  font-weight: 500;
+}
+
+#section5 p {
+  font-size: 20px;
+  padding: 10px 30px;
+}
+#section5 button {
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  display: block;
+}
+
+#section5 .boks {
+  width: 100%;
+}
+#section5 div .text2 {
+  place-self: center;
+}
+
+.anmeldelser {
+  width: 70%;
+  align-items: center;
+}
+
+.citat1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30vw;
+  margin-bottom: -21vw;
+  color: #bdd09e;
+  margin-left: 7vw;
+}
+
+#section6 h1 {
+  font-family: quicksand;
+  font-weight: 700;
+  font-size: 7vw;
+  color: #738458;
+  text-transform: uppercase;
+  margin-bottom: -3px;
+  margin-left: 8vw;
+}
+
+#section6 h2 {
+  text-transform: uppercase;
+  font-family: montserrat;
+  font-weight: 400;
+  color: #000;
+  z-index: 1;
+  text-align: center;
+  font-size: 6vw;
+  color: white;
+}
+
+.citat2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30vw;
+  margin-bottom: -11vw;
+  color: #bdd09e;
+  margin-left: 7vw;
+  text-align: right;
+  margin-right: 4vw;
+}
+.anmeldelser {
+  margin-bottom: 0vw;
+}
+
+#section8 h1 {
+  font-family: quicksand;
+  font-weight: 700;
+  font-size: 8vw;
+  color: #738458;
+  text-transform: uppercase;
+  margin-bottom: -3px;
+  margin-left: 8vw;
+}
+
+#section8 h2 {
+  text-transform: uppercase;
+  font-family: montserrat;
+  font-weight: 400;
+  color: #000;
+  z-index: 1;
+  text-align: center;
+  font-size: 5.5vw;
+  color: black;
+}
+
+#section7 .baggrund_sandwitch {
+  width: 30%;
+  margin-left: 70vw;
+  margin-bottom: -20vw;
+}
+
+.carousel-item {
+  position: relative;
+  display: none;
+  width: 50%;
+  margin-left: 25vw;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transition: transform 0.6s ease-in-out;
+}
+
+.carousel-control-prev {
+  /* left: 280px; */
+  margin-left: 220px;
+}
+
+.carousel-control-next {
+  right: 220px;
+}
+
+#section9 h2 {
+  font-family: quicksand;
+  color: #738458;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: (30px, 2.5vw, 55px);
+}
+
+.madpakke {
+  width: 40%;
+  margin-left: 33vw;
+}
+
+#section9 button {
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  display: block;
+}
+
+footer {
+  background-color: #738458;
+  color: white;
+  text-align: center;
+}
+footer h2 {
+  text-transform: uppercase;
+  font-family: quicksand;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+footer p {
+  font-family: montserrat;
+  font-weight: 400;
+}
+
+.some {
+  width: 10%;
+}
+
+.kurv {
+  margin-top: -1.5vw;
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel-control-prev {
+    margin-left: 0px;
+  }
+
+  .carousel-control-next {
+    right: 0px;
+  }
+
+  .carousel-item {
+    width: 80%;
+    margin-left: 52.5px;
+  }
+}

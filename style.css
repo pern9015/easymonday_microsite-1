@@ -289,6 +289,7 @@ button:active {
   margin-left: 7vw;
   text-align: right;
   margin-right: 4vw;
+  margin-top: -4vw;
 }
 .anmeldelser {
   margin-bottom: 0vw;
@@ -359,6 +360,17 @@ button:active {
   align-items: center;
   margin: 0 auto;
   display: block;
+}
+
+.carousel-item button {
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.carousel-indicators {
+  margin-bottom: 4rem;
 }
 
 footer {

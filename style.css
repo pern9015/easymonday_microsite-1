@@ -411,4 +411,20 @@ footer p {
     width: 80%;
     margin-left: 52.5px;
   }
+  .anmeldelser {
+    width: 90%;
+  }
+
+  img.baggrund {
+    margin-top: 60vw;
+  }
+  #section0 .container {
+    margin-top: -46vw;
+  }
+  #section0 div {
+    margin-top: 115px;
+  }
+  #section0 .div2 {
+    margin-top: -40px;
+  }
 }

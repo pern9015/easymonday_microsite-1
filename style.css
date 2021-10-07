@@ -27,6 +27,10 @@ nav {
   text-transform: uppercase;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #bdd09e;
+}
+
 .navbar-light .navbar-toggler {
   color: white;
   border: none;
@@ -43,6 +47,9 @@ video,
   place-self: center;
 }
 
+#titel h2 {
+  font-size: 3.5vw;
+}
 .Splash_overskrift {
   place-self: center center;
   color: white;
@@ -278,7 +285,7 @@ button:active {
   z-index: 1;
   text-align: center;
   font-size: 6vw;
-  color: white;
+  color: black;
 }
 
 .citat2 {
@@ -396,6 +403,9 @@ footer p {
 
 .kurv {
   margin-top: -1.5vw;
+}
+.kurv:hover {
+  fill: #bdd09e;
 }
 
 @media only screen and (max-width: 768px) {

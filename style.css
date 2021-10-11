@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: #e0dacf;
+  overflow-x: hidden;
 }
 
 .container {
@@ -146,7 +147,7 @@ button:active {
   font-size: clamp(30px, 2.5vw, 55px);
   text-transform: uppercase;
   font-family: "Quicksand";
-  font-weight: 500;
+  font-weight: 600;
 }
 
 #section2 p {
@@ -169,7 +170,7 @@ button:active {
   color: #738458;
   text-align: center;
   /* font-size: 4rem; */
-  font-size: clamp(55px, 5.5vw, 75px);
+  font-size: clamp(55px, 6.5vw, 85px);
   font-family: quicksand;
   font-weight: 700;
   text-transform: uppercase;
@@ -408,6 +409,15 @@ footer p {
   fill: #bdd09e;
 }
 
+.sk-slider-container {
+  width: 100vw;
+}
+
+.sk-instagram-feed {
+  width: 100vw;
+  overflow-x: hidden;
+}
+
 @media only screen and (max-width: 768px) {
   .carousel-control-prev {
     margin-left: 0px;
@@ -439,5 +449,22 @@ footer p {
   }
   .section4 {
     margin-left: 0px;
+  }
+
+  #section5 .baggrund {
+    opacity: 0;
+  }
+
+  #section5 p {
+    font-size: 20px;
+    padding: 10px 0px 10px 40px;
+  }
+  .row {
+    --bs-gutter-x: 0rem;
+  }
+
+  .sk-instagram-feed {
+    overflow-x: hidden;
+    width: 100vw;
   }
 }

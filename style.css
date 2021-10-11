@@ -418,7 +418,46 @@ footer p {
   overflow-x: hidden;
 }
 
+.horizSlider {
+  position: relative;
+  white-space: nowrap;
+  overflow: auto;
+}
+.horizSlider .slide {
+  display: inline-block;
+  position: relative;
+}
+.slideText {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  z-index: 1;
+  font-size: 3em;
+  font-weight: 400;
+  font-family: quicksand;
+}
+.slideImage {
+  transform-origin: bottom left;
+}
+@media only screen and (min-width: 1200px) {
+  .hideindesk {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .horizSlider {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 768px) {
+  .horizSlider {
+    display: none;
+  }
   .carousel-control-prev {
     margin-left: 0px;
   }

@@ -25,7 +25,6 @@ gsap
       start: "top 50%",
       end: "+=200",
       scrub: true,
-      markers: true,
     },
   })
   .from(".animation1", {
@@ -52,7 +51,6 @@ gsap
       start: "25% 50%",
       end: "+=135",
       scrub: true,
-      markers: true,
     },
   })
   .from(".animation4", {
